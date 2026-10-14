@@ -1,0 +1,8 @@
+# données (licence CC BY-NC-SA, à télécharger avec scripts/download_data.sh)
+data/
+# modèles (trop lourds pour GitHub -> Hugging Face Hub)
+models/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
