@@ -3,7 +3,6 @@
 Classifieur **CamemBERT** qui distingue les titres satiriques (type *Le Gorafi*) des titres de presse classiques, comparé à une baseline TF-IDF.
 Le modèle apprend-il vraiment la satire, ou seulement le style et l'époque de certains journaux ? Une **analyse linguistique des erreurs** cherche à répondre à cette question.
 
-> Projet personnel, Master 2 Langue et Informatique (TAL), Sorbonne Université.
 
 ## Résultats
 
