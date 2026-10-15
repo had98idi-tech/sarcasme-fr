@@ -1,0 +1,238 @@
+{
+  "indices_train": {
+    "question (?)": {
+      "normal": 10.9,
+      "satirique": 2.7
+    },
+    "exclamation (!)": {
+      "normal": 2.7,
+      "satirique": 1.0
+    },
+    "deux-points (:)": {
+      "normal": 14.0,
+      "satirique": 20.7
+    },
+    "guillemets / citation": {
+      "normal": 14.9,
+      "satirique": 14.6
+    },
+    "chiffre": {
+      "normal": 19.5,
+      "satirique": 28.8
+    },
+    "1re/2e personne (je, nous, vous…)": {
+      "normal": 18.4,
+      "satirique": 8.1
+    },
+    "comment / pourquoi / voici": {
+      "normal": 9.2,
+      "satirique": 0.8
+    },
+    "verbe de révélation (avoue, découvre…)": {
+      "normal": 2.1,
+      "satirique": 4.1
+    },
+    "il / elle + verbe (récit)": {
+      "normal": 7.4,
+      "satirique": 13.6
+    }
+  },
+  "indices_test": {
+    "question (?)": {
+      "normal": 7.8,
+      "satirique": 5.6
+    },
+    "exclamation (!)": {
+      "normal": 0.9,
+      "satirique": 10.6
+    },
+    "deux-points (:)": {
+      "normal": 51.8,
+      "satirique": 27.2
+    },
+    "guillemets / citation": {
+      "normal": 30.9,
+      "satirique": 7.7
+    },
+    "chiffre": {
+      "normal": 11.2,
+      "satirique": 10.6
+    },
+    "1re/2e personne (je, nous, vous…)": {
+      "normal": 4.3,
+      "satirique": 4.7
+    },
+    "comment / pourquoi / voici": {
+      "normal": 1.5,
+      "satirique": 1.2
+    },
+    "verbe de révélation (avoue, découvre…)": {
+      "normal": 1.4,
+      "satirique": 0.3
+    },
+    "il / elle + verbe (récit)": {
+      "normal": 4.8,
+      "satirique": 2.6
+    }
+  },
+  "longueur_moyenne_train": {
+    "normal": 12.2,
+    "satirique": 13.4
+  },
+  "longueur_moyenne_test": {
+    "normal": 10.2,
+    "satirique": 6.4
+  },
+  "matrice_confusion_test": {
+    "vrai_normal": [
+      1254,
+      172
+    ],
+    "vrai_satirique": [
+      402,
+      522
+    ]
+  },
+  "taux_erreur_par_indice": {
+    "question (?)": {
+      "avec": 14.1,
+      "sans": 25.2,
+      "n_avec": 163
+    },
+    "exclamation (!)": {
+      "avec": 43.2,
+      "sans": 23.5,
+      "n_avec": 111
+    },
+    "deux-points (:)": {
+      "avec": 10.6,
+      "sans": 34.5,
+      "n_avec": 989
+    },
+    "guillemets / citation": {
+      "avec": 2.5,
+      "sans": 30.5,
+      "n_avec": 511
+    },
+    "chiffre": {
+      "avec": 22.6,
+      "sans": 24.7,
+      "n_avec": 257
+    },
+    "1re/2e personne (je, nous, vous…)": {
+      "avec": 20.0,
+      "sans": 24.6,
+      "n_avec": 105
+    },
+    "comment / pourquoi / voici": {
+      "avec": 9.1,
+      "sans": 24.6,
+      "n_avec": 33
+    },
+    "il / elle + verbe (récit)": {
+      "avec": 6.5,
+      "sans": 25.2,
+      "n_avec": 92
+    }
+  },
+  "exemples_faux_positifs": [
+    [
+      "Royal favorable au retour des coupures d’eau pour les mauvais payeurs",
+      0.9901
+    ],
+    [
+      "Guéant « opposé à la levée de l’embargo sur les armes » pour les rebelles syriens",
+      0.9901
+    ],
+    [
+      "Après l’affaire Benalla, le numéro 2 de Pôle emploi choisi pour réorganiser l’Elysée",
+      0.99
+    ],
+    [
+      "2012 : François Hollande s’adresse aux ouvriers",
+      0.9899
+    ],
+    [
+      "Boutin sur RMC : « On est envahis de gays ! »",
+      0.9897
+    ],
+    [
+      "Viande de cheval : le gouvernement « au combat » pour sauver Spanghero",
+      0.9897
+    ],
+    [
+      "Marine Le Pen : « Je suis le leader de l’opposition »",
+      0.9897
+    ],
+    [
+      "Ayrault à Marseille : « Déterminé à faire reculer la délinquance »",
+      0.9897
+    ],
+    [
+      "L’UMP lance une pétition pour soutenir un boulanger des Landes",
+      0.9897
+    ],
+    [
+      "Marseille : « Ramène moi des électeurs, je te promets une petite place à la ville »",
+      0.9897
+    ],
+    [
+      "Bayrou : « Aucun progrès dans cette nouvelle Constitution »",
+      0.9897
+    ],
+    [
+      "Buffet : « Sarkozy, le président des restrictions »",
+      0.9896
+    ]
+  ],
+  "exemples_faux_negatifs": [
+    [
+      "La méthanisation sent le gaz (pour ne pas dire la merde)",
+      0.0147
+    ],
+    [
+      "Saillans, une expérience de démocratie directe",
+      0.0152
+    ],
+    [
+      "Chômage: Hollande a la solution",
+      0.0154
+    ],
+    [
+      "Les handicapés sont des enfants comme les autres",
+      0.016
+    ],
+    [
+      "Comment les anti-IVG tissent leur toile en France",
+      0.0161
+    ],
+    [
+      "La solidarité est toujours un délit",
+      0.0162
+    ],
+    [
+      "107 ans, plus aucune dent, mais toute sa tête",
+      0.0163
+    ],
+    [
+      "Au FN aussi, on débat de la question de la prostitution",
+      0.0164
+    ],
+    [
+      "Avec le rougail, le piment ne ment pas",
+      0.0164
+    ],
+    [
+      "Sahara occidental, le conflit oublié",
+      0.0164
+    ],
+    [
+      "Yémen, une guerre ignorée",
+      0.0164
+    ],
+    [
+      "Il vaut mieux peindre que crever les yeux des chiens",
+      0.0165
+    ]
+  ]
+}
